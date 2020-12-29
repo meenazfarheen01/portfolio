@@ -1,0 +1,136 @@
+/* white- #f6f6f6
+    toner gray - #e8e8e8
+    neutral gray - #333333
+    burnt umber - #990100
+ */
+
+
+body{
+    background-color:#f6f6f6;
+}
+::selection {
+    color:#f6f6f6;
+    background: #990100;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+body{
+    font-family: 'Lora', serif ;
+    font-size:1.2em;
+    color:#333333;
+}
+h2{
+    position: relative;
+}
+h2:after{
+    content:'';
+    position: absolute;
+    width:60px;
+    height:3px;
+    left:50%;
+    bottom:-10px;
+    background-color:#990100;
+    transform: translateX(-50%);
+}
+.navbar-brand{
+    color:#f6f6f6 !important;
+    font-weight:bold;
+    cursor:default;
+}
+.navbar-brand:hover{
+    color:#f6f6f6 !important;
+}
+.navbar-toggler{
+    background-color:#f6f6f6 !important;
+}
+#menu-items a{
+    color:#f6f6f6 !important;
+}
+#menu-items a:hover{
+    color:#990100 !important;
+}
+.btn-red:hover{
+    background-color:#990100;
+    color:#f6f6f6;
+    border:2px solid #990100;
+    border-radius:0;
+}
+.btn-red{
+    border:2px solid #990100;
+    color:#f6f6f6;
+    background-color:transparent;
+    border-radius: 0;
+}
+#home{
+    background-image: url("../images/hero image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    position: relative;
+    color:#f6f6f6;
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.home-content span{
+    color:#990100;
+    text-shadow: 0 0 3px #f6f6f6, 0 0 5px #f6f6f6;
+
+}
+#about span{
+    color:#990100;
+    text-shadow: 0 0 3px #333333, 0 0 5px #333333;
+
+}
+#about a{
+    color:#990100;
+}
+#education span{
+    color:#990100;
+    text-shadow: 0 0 3px #333333, 0 0 5px #333333;
+
+}
+.side-headings{
+    color:#990100;
+}
+#highlights span{
+    color:#990100;
+    text-shadow: 0 0 3px #333333, 0 0 5px #333333;
+
+}
+.certificates-heading{
+    flex-direction: row-reverse;
+}
+.cocurricular a{
+    color:#990100;
+}
+.resume a{
+    color:#333333 !important;
+}
+.resume a:hover{
+    color:#f6f6f6 !important;
+}
+#contact span{
+    color:#990100;
+    text-shadow: 0 0 3px #f6f6f6, 0 0 5px #f6f6f6;
+}
+#contact{
+    background-color: #333333;
+    color:#f6f6f6;
+}
+.social i{
+    color:#f6f6f6;
+}
+.social a i:hover{
+    color:#990100;
+}
+footer{
+    background-color:#990100;
+    color:#f6f6f6;
+}
